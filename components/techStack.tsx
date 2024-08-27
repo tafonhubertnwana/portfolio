@@ -21,22 +21,22 @@ const technologies = [
   { name: 'CSS3', icon: css },
   { name: 'JavaScript', icon: javascript },
   { name: 'React.js', icon: react },
-  { name: 'React.js', icon: redux },
-  { name: 'React.js', icon: nextjs },
-  { name: 'React.js', icon: typescript },
-  { name: 'React.js', icon: tailwind },
-  { name: 'React.js', icon: bootstrap },
-  { name: 'React.js', icon: nodejs },
-  { name: 'React.js', icon: express },
-  { name: 'React.js', icon: github },
-  { name: 'React.js', icon: aws },
+  { name: 'Redux', icon: redux },
+  { name: 'Next.js', icon: nextjs },
+  { name: 'TypeScript', icon: typescript },
+  { name: 'Tailwind', icon: tailwind },
+  { name: 'Bootstrap', icon: bootstrap },
+  { name: 'Node.js', icon: nodejs },
+  { name: 'Express.js', icon: express },
+  { name: 'GitHub', icon: github },
+  { name: 'aws', icon: aws },
 ];
 
 const TechStack = () => {
   return (
     <>
       <div  className=' dark:bg-slate-800'>
-        <div id='techStack' className='container mx-auto h-100 px-4 pt-[6%]'>
+        <div id='techStack' className='container mx-auto h-100 px-4 pt-[10%] md:pt-[6%]'>
           <div className='w-[100%] md:w-[50%] mx-auto'>
           <div className="flex flex-col items-center">
             <h4 className="flex justify-center items-center text-[#31473a]">My Tech Stack</h4>

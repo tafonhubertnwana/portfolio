@@ -26,7 +26,7 @@ const Contact = () => {
     <>
     <div className='dark:bg-slate-800'>
    
-      <div id='contact' className="container mx-auto h-100 px-4 pt-[6%]">
+      <div id='contact' className="container mx-auto h-100 px-4 pt-[10%] md:pt-[6%]">
         <div className="flex flex-col items-center">
           <h4 className="flex justify-center items-center text-[#31473a] text-lg sm:text-xl md:text-2xl lg:text-3xl">Contact </h4>
           <div className="mt-1 w-24">
