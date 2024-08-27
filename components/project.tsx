@@ -30,25 +30,25 @@ const Project: React.FC = () => {
             <div className="grid md:grid-cols-2  gap-8">
               <ProjectItem
                 title='Portfolio'
-                backgroundImg={portfolio}
+                backgroundImg={portfolio.src}
                 projectUrl='/portfolio'
                 type='React'
               />
               <ProjectItem
                 title='HT Mobile Commerce'
-                backgroundImg={mobile}
+                backgroundImg={mobile.src}
                 projectUrl='/mobile'
                 type='react'
               />
               <ProjectItem
                 title='E-Quiz Game'
-                backgroundImg={quiz}
+                backgroundImg={quiz.src}
                 projectUrl='/quiz'
                 type='Vanilla JavaScript'
               />
               <ProjectItem
                 title='e-best commerce'
-                backgroundImg={best}
+                backgroundImg={best.src}
                 projectUrl='/best'
                 type='Vanilla JavaScript'
               />
