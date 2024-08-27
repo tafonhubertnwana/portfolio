@@ -11,7 +11,7 @@ import ProjectItem from './projectItems'
 
 
 
-const Project = () => {
+const Project: React.FC = () => {
 
   return (
     <>   
