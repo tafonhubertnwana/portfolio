@@ -8,14 +8,14 @@ const About = () => {
     <> 
     <div className='dark:bg-slate-800'>
       
-        <div id='about' className="container mx-auto h-100 px-4 pt-[20%] md:pt-[6%] ">
+        <div id='about' className="container mx-auto h-100 px-4 pt-[22%] md:pt-[6%] ">
             <div className='flex flex-col items-center'>
               <h4 className="flex justify-center items-center text-[#31473a] ">About Me</h4>
               <div className="mt-1 w-24">
                 <Image src={line} alt="line" className="w-full h-auto" />
               </div>
             </div>
-            <div className='flex items-center py-16'>
+            <div className='flex items-center py-8'>
               <div className=' m-auto md:grid grid-cols-3 gap-8 '>
                   <div className="col-span-2">
                     <p className="py-2 text-gray-700 dark:text-slate-400">

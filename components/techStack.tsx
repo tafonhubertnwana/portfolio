@@ -36,7 +36,7 @@ const TechStack = () => {
   return (
     <>
       <div  className=' dark:bg-slate-800'>
-        <div id='techStack' className='container mx-auto h-100 px-4 pt-[20%] md:pt-[6%]'>
+        <div id='techStack' className='container mx-auto h-100 px-4 pt-[22%] md:pt-[6%]'>
           <div className='w-[100%] md:w-[50%] mx-auto'>
           <div className="flex flex-col items-center">
             <h4 className="flex justify-center items-center text-[#31473a]">My Tech Stack</h4>
