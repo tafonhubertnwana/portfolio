@@ -97,7 +97,7 @@ const Navbar = () => {
             className={`${
               nav
                 ? 'md:hidden fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white px-8 py-1 ease-in duration-500 dark:bg-slate-800'
-                : 'md:hidden fixed left-[-100%] top-0 py-5 ease-in duration-500 dark:bg-slate-800'
+                : 'md:hidden fixed left-[-100%] top-0 py-5 ease-in duration-200 dark:bg-slate-800'
             }`}
           >
             <div className="flex w-full justify-between border-b">
