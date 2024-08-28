@@ -109,8 +109,8 @@ const Contact = () => {
                     <textarea
                       name="message"
                       id="message"
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)} 
+                      value={message}
+                      onChange={(e) => setMessage(e.target.value)} 
                       className='border-2 rounded-lg p-3 border-gray-300'
                       rows={10}
                       required
