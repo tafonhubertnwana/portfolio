@@ -130,7 +130,7 @@ const Contact = () => {
             </Link>
           </div>
           <div>
-            <p className='text-start text-gray-500 mt-10 text-sm dark:text-white'>© 2024 All rights reserved.</p>
+            <p className='text-start text-gray-500 my-10 text-sm dark:text-white'>© 2024 All rights reserved.</p>
           </div>
         </div>
       </div>
